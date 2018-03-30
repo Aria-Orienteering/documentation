@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Deployment Model</title>
+        <title></title>
         <!-- <script src="http://use.edgefonts.net/source-sans-pro;source-code-pro.js"></script> -->
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -20,17 +20,15 @@
 
             <!-- Name Title -->
 
-            <h1>Deployment Model</h1>
+            <h1>(unnamed)</h1>
 
             <!-- Type and Stereotype -->
 
             <section style="margin-top: .5em;">
                 <span class="alert alert-info">
-                    <span class="node-icon _icon-UMLModel"></span>
-                    UMLModel
+                    <span class="node-icon _icon-UMLControlFlow"></span>
+                    UMLControlFlow
                 </span>
-                
-                    <span style="margin-left: 10px" class="alert alert-info">«»</span>
                 
             </section>
 
@@ -44,7 +42,16 @@
                     <span class="label label-info"><a href='0fa3e26321c26558efa77ff144c36f21.html'><span class='node-icon _icon-Project'></span>Aria Orienteering</a></span>
                 
                     <span>::</span>
-                    <span class="label label-info"><a href='985dd4f6f793fd73872bbe350366105f.html'><span class='node-icon _icon-UMLModel'></span>Deployment Model</a></span>
+                    <span class="label label-info"><a href='9969dad9dece5c91173a6750c183ca06.html'><span class='node-icon _icon-UMLModel'></span>Use Case Model</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='5c69741208c03e7a8e9f1cba50dced2e.html'><span class='node-icon _icon-UMLUseCase'></span>Register Entrant</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='a00146cc225e5e5c2929df34ce3e999b.html'><span class='node-icon _icon-UMLActivity'></span>Register Entrant Activity</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='c8b5270280c9934bb2e18b0938be00a1.html'><span class='node-icon _icon-UMLControlFlow'></span>(Initiate Add New Entrant→Collect Details)</a></span>
                 
             </section>
 
@@ -71,6 +78,25 @@
 
             <!-- Directed Relationship -->
 
+            
+            <section class="element-list">
+                <table width="100%">
+                    <tr>
+                        <td width="50%">
+                            <h3>Source</h3>
+                            <ul class="nav nav-list">
+                                <li><a href='1284d22792967d9969f6d69d920af127.html'><span class='node-icon _icon-UMLAction'></span>Initiate Add New Entrant</a></a></li>
+                            </ul>
+                        </td>
+                        <td width="50%">
+                            <h3>Target</h3>
+                            <ul class="nav nav-list">
+                                <li><a href='1079d30cd23cdbb2483806bf536b800f.html'><span class='node-icon _icon-UMLAction'></span>Collect Details</a></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </section>
             
 
             <!-- Undirected Relationship -->
@@ -133,22 +159,6 @@
 
             
             
-            <section class="element-list">
-                <h3>Diagrams</h3>
-                <div>
-                    
-                    <div style="display: inline-block; width: 250px; vertical-align: top;">
-                        <div class="member">
-                            <a href="46d679c6979b43b8341f0dfba09bd4ad.html">
-                            <img src="../diagrams/46d679c6979b43b8341f0dfba09bd4ad.svg">
-                            <div style="text-align: center; margin-top: 1em;">Deployment</div>
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
-            
 
             <!-- Behavior -->
 
@@ -209,7 +219,7 @@
     
     <tr>
         <td>name</td>
-        <td>Deployment Model</td>
+        <td></td>
     </tr>
     
     
@@ -223,8 +233,26 @@
     
     
     <tr>
+        <td>source</td>
+        <td><a href='1284d22792967d9969f6d69d920af127.html'><span class='node-icon _icon-UMLAction'></span>Initiate Add New Entrant</a></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>target</td>
+        <td><a href='1079d30cd23cdbb2483806bf536b800f.html'><span class='node-icon _icon-UMLAction'></span>Collect Details</a></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
         <td>stereotype</td>
-        <td></td>
+        <td><span class='label label-info'>null</span></td>
     </tr>
     
     
@@ -240,13 +268,9 @@
     
     
     
-    
-    
     <tr>
-        <td>importedElements</td>
-        <td>
-            
-        </td>
+        <td>guard</td>
+        <td></td>
     </tr>
     
     
@@ -254,7 +278,7 @@
     
     
     <tr>
-        <td>viewpoint</td>
+        <td>weight</td>
         <td></td>
     </tr>
     
@@ -271,18 +295,6 @@
             <!-- Constraints, Dependencies, Dependants -->
 
             
-                
-                
-
-
-                
-                
-
-
-                
-                
-
-            
 
             <!-- Relationships -->
 
@@ -294,31 +306,6 @@
 
             
             
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='46d679c6979b43b8341f0dfba09bd4ad.html'><span class='node-icon _icon-UMLDeploymentDiagram'></span>Deployment</a></li>
-        
-        <li><a href='429f2bd91f9fe6457e0e3f112a1abd95.html'><span class='node-icon _icon-UMLNode'></span>Cloud Server</a></li>
-        
-        <li><a href='59a1dc8f8bed0a40141803fda2d415f3.html'><span class='node-icon _icon-UMLNode'></span>Hand Held Application</a></li>
-        
-        <li><a href='6b2b9d3dd5ea6516bc077594149c99c8.html'><span class='node-icon _icon-UMLNode'></span>Desktop Application</a></li>
-        
-        <li><a href='9e9adfbfbd97bee95ced86651b797bd4.html'><span class='node-icon _icon-UMLComponent'></span>Location API</a></li>
-        
-        <li><a href='4112d848cbd5cc5624338fe18892c042.html'><span class='node-icon _icon-UMLComponent'></span>Storage</a></li>
-        
-        <li><a href='7fad9222ad2f2dd26ee46445ca274db5.html'><span class='node-icon _icon-UMLComponent'></span>Messaging</a></li>
-        
-        <li><a href='51e1dc0728740d86dd20c092e72c7635.html'><span class='node-icon _icon-UMLComponentInstance'></span>Location Maps</a></li>
-        
-        <li><a href='d08234c0af7d15f921a7b1f9a2b06d20.html'><span class='node-icon _icon-UMLComponentInstance'></span>Messages</a></li>
-        
-    </ul>
-</section>
-
 
 
         </div>
