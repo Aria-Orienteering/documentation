@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Log In_Out</title>
+        <title>Remove Course</title>
         <!-- <script src="http://use.edgefonts.net/source-sans-pro;source-code-pro.js"></script> -->
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -20,14 +20,14 @@
 
             <!-- Name Title -->
 
-            <h1>Log In_Out</h1>
+            <h1>Remove Course</h1>
 
             <!-- Type and Stereotype -->
 
             <section style="margin-top: .5em;">
                 <span class="alert alert-info">
-                    <span class="node-icon _icon-UMLUseCase"></span>
-                    UMLUseCase
+                    <span class="node-icon _icon-UMLAction"></span>
+                    UMLAction
                 </span>
                 
             </section>
@@ -47,6 +47,12 @@
                     <span>::</span>
                     <span class="label label-info"><a href='75b34e35d342490806919a20c2a6d67d.html'><span class='node-icon _icon-UMLUseCase'></span>Log In_Out</a></span>
                 
+                    <span>::</span>
+                    <span class="label label-info"><a href='4eb41d2676502612434c6b5e24f10af5.html'><span class='node-icon _icon-UMLActivity'></span>Log Out</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='fc45c81a3ef6d992497d0dfa4949021d.html'><span class='node-icon _icon-UMLAction'></span>Remove Course</a></span>
+                
             </section>
 
             <!-- Diagram -->
@@ -60,7 +66,7 @@
                 <h3>Description</h3>
                 <div>
                     
-                        <p>The Use cases for a user to log in and out.</p>
+                        <p>The Course details are removed from device.</p>
                     
                 </div>
             </section>
@@ -81,26 +87,6 @@
             <!-- Classifier -->
 
             
-                
-                
-
-
-                
-                
-
-
-                
-                
-
-
-                
-                
-
-
-                
-                
-
-            
 
             <!-- Interface -->
 
@@ -119,33 +105,6 @@
             
 
             <!-- Use Case -->
-
-            
-                
-                
-<section class="element-list">
-    <h3>Actors</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='165753520b759d9f8055aaadd0d051ff.html'><span class='node-icon _icon-UMLActor'></span>Field_User</a></li>
-        
-        <li><a href='36aaca06126b6e6c1660c7576804baf9.html'><span class='node-icon _icon-UMLActor'></span>Monitor_User</a></li>
-        
-        <li><a href='5ed43067e415dc0b8180e572c5d30380.html'><span class='node-icon _icon-UMLActor'></span>Event_Admin</a></li>
-        
-        <li><a href='4164b4672621a81ab1f8ba3876e41728.html'><span class='node-icon _icon-UMLActor'></span>Course_Admin</a></li>
-        
-    </ul>
-</section>
-
-
-
-                
-                
-
-
-                
-                
 
             
 
@@ -187,6 +146,26 @@
             
 
             <!-- Action -->
+
+            
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+
+                
+                
 
             
 
@@ -241,7 +220,7 @@
     
     <tr>
         <td>name</td>
-        <td>Log In_Out</td>
+        <td>Remove Course</td>
     </tr>
     
     
@@ -274,6 +253,13 @@
     
     
     
+    <tr>
+        <td>kind</td>
+        <td>opaque</td>
+    </tr>
+    
+    
+    
     
     
     
@@ -283,7 +269,25 @@
     
     
     <tr>
-        <td>isAbstract</td>
+        <td>target</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>subactivity</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLocallyReentrant</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -292,8 +296,8 @@
     
     
     <tr>
-        <td>isFinalSpecialization</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>isSynchronous</td>
+        <td><span class='label label-info'>true</span></td>
     </tr>
     
     
@@ -301,8 +305,8 @@
     
     
     <tr>
-        <td>isLeaf</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>language</td>
+        <td></td>
     </tr>
     
     
@@ -310,11 +314,13 @@
     
     
     <tr>
-        <td>extensionPoints</td>
-        <td>
-            
-        </td>
+        <td>body</td>
+        <td></td>
     </tr>
+    
+    
+    
+    
     
     
     
@@ -350,13 +356,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='44d8de044ff791294dc130ae3ad0e01e.html'><span class='node-icon _icon-UMLAssociation'></span>Log In_Out (Field_User—Log In_Out)</a></li>
+        <li><a href='2642ea182d3a617aa9ba88ec0ac71884.html'><span class='node-icon _icon-UMLControlFlow'></span>(Stop Timer→Remove Course)</a></li>
         
-        <li><a href='eefc8ec0addf8d35e6c1c5d7a4df766a.html'><span class='node-icon _icon-UMLAssociation'></span>Log In_Out (Monitor_User—Log In_Out)</a></li>
-        
-        <li><a href='4e542fa327219aa86bd5670c6ef757d1.html'><span class='node-icon _icon-UMLAssociation'></span>Log In_Out (Event_Admin—Log In_Out)</a></li>
-        
-        <li><a href='7cccac355397341a18658a4b03e2ec15.html'><span class='node-icon _icon-UMLAssociation'></span>Log In_Out (Course_Admin—Log In_Out)</a></li>
+        <li><a href='5f872e9acd25984ca82a43f321784b76.html'><span class='node-icon _icon-UMLControlFlow'></span>(Remove Course→Stop Geofence Service)</a></li>
         
     </ul>
 </section>
@@ -367,17 +369,6 @@
 
             
             
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='95039f5ca60bc826b845a79e4be02325.html'><span class='node-icon _icon-UMLActivity'></span>Log In</a></li>
-        
-        <li><a href='4eb41d2676502612434c6b5e24f10af5.html'><span class='node-icon _icon-UMLActivity'></span>Log Out</a></li>
-        
-    </ul>
-</section>
-
 
 
         </div>
