@@ -63,7 +63,7 @@
                 <h3>Description</h3>
                 <div>
                     
-                        <span class="label label-info">none</span>
+                        <p>The Activity of Getting a course, done by a system.</p>
                     
                 </div>
             </section>
@@ -183,14 +183,67 @@
             
                 
                 
+<section class="element-list">
+    <h3>Groups</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='648ee3fd8eb3790b57ceec586fbba6cb.html'><span class='node-icon _icon-UMLSwimlaneVert'></span>System</a></li>
+        
+    </ul>
+</section>
+
 
 
                 
                 
+<section class="element-list">
+    <h3>Nodes</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='1710e72f9c156a570653e0c7b8a65f0d.html'><span class='node-icon _icon-UMLInitialNode'></span>InitialNode1</a></li>
+        
+        <li><a href='0b64822de7f08ebfd1961a625fbdfb88.html'><span class='node-icon _icon-UMLAction'></span>Query Storage for Courses</a></li>
+        
+        <li><a href='0726b5e74385a673998d541c2dfb111d.html'><span class='node-icon _icon-UMLAction'></span>Remove Completed Courses</a></li>
+        
+        <li><a href='b00b679f16b54eaae837795db928b210.html'><span class='node-icon _icon-UMLAction'></span>Assign Random Couse</a></li>
+        
+        <li><a href='34b61275b793c2b4166efe6b14cce8cf.html'><span class='node-icon _icon-UMLAction'></span>Retrieve Marker Locations</a></li>
+        
+        <li><a href='ae719130618ec3389551b1f5e1c9d947.html'><span class='node-icon _icon-UMLActivityFinalNode'></span>ActivityFinalNode1</a></li>
+        
+        <li><a href='fcd8dc6f58e5f1c7df9e8d0905ce1deb.html'><span class='node-icon _icon-UMLDataStoreNode'></span>CourseStorage</a></li>
+        
+        <li><a href='45d4bba27cffc79e49f08533cd6b0b40.html'><span class='node-icon _icon-UMLDataStoreNode'></span>MarkerStorage</a></li>
+        
+    </ul>
+</section>
+
 
 
                 
                 
+<section class="element-list">
+    <h3>Edges</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='83bb14b48e6addb83d0112313cf3ebbc.html'><span class='node-icon _icon-UMLObjectFlow'></span>UserCategory (Query Storage for Courses→CourseStorage)</a></li>
+        
+        <li><a href='eb96d85bf9f3fc7d9d9dd90ef4435906.html'><span class='node-icon _icon-UMLObjectFlow'></span>CourseList (CourseStorage→Remove Completed Courses)</a></li>
+        
+        <li><a href='cd54e9ab2e5057e035615e99d5718a2e.html'><span class='node-icon _icon-UMLControlFlow'></span>(InitialNode1→Query Storage for Courses)</a></li>
+        
+        <li><a href='e9ba372df2bfc96925bbdeb3ae6aefbc.html'><span class='node-icon _icon-UMLControlFlow'></span>SmallerCourseList (Remove Completed Courses→Assign Random Couse)</a></li>
+        
+        <li><a href='a40817fa4b52488caa8838b9f1a522f4.html'><span class='node-icon _icon-UMLControlFlow'></span>CourseID (Assign Random Couse→Retrieve Marker Locations)</a></li>
+        
+        <li><a href='1309fd530beb9efc7b327f9b8411ce77.html'><span class='node-icon _icon-UMLObjectFlow'></span>CourseID (Retrieve Marker Locations→MarkerStorage)</a></li>
+        
+        <li><a href='45722512747f86808cac93f9eb608a49.html'><span class='node-icon _icon-UMLObjectFlow'></span>MarkerList (MarkerStorage→ActivityFinalNode1)</a></li>
+        
+    </ul>
+</section>
+
 
             
 
