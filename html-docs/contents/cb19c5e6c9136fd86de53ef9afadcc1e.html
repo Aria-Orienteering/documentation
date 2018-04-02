@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Use Case Model</title>
+        <title>Result List Activity</title>
         <!-- <script src="http://use.edgefonts.net/source-sans-pro;source-code-pro.js"></script> -->
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -20,14 +20,14 @@
 
             <!-- Name Title -->
 
-            <h1>Use Case Model</h1>
+            <h1>Result List Activity</h1>
 
             <!-- Type and Stereotype -->
 
             <section style="margin-top: .5em;">
                 <span class="alert alert-info">
-                    <span class="node-icon _icon-UMLModel"></span>
-                    UMLModel
+                    <span class="node-icon _icon-UMLActivity"></span>
+                    UMLActivity
                 </span>
                 
             </section>
@@ -44,6 +44,12 @@
                     <span>::</span>
                     <span class="label label-info"><a href='9969dad9dece5c91173a6750c183ca06.html'><span class='node-icon _icon-UMLModel'></span>Use Case Model</a></span>
                 
+                    <span>::</span>
+                    <span class="label label-info"><a href='a27f23cd2a2b3876e50a81ffea1387ef.html'><span class='node-icon _icon-UMLUseCase'></span>Result List</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='cb19c5e6c9136fd86de53ef9afadcc1e.html'><span class='node-icon _icon-UMLActivity'></span>Result List Activity</a></span>
+                
             </section>
 
             <!-- Diagram -->
@@ -57,7 +63,7 @@
                 <h3>Description</h3>
                 <div>
                     
-                        <p>The models of use cases required for the application.</p>
+                        <p>The Result List Activity</p>
                     
                 </div>
             </section>
@@ -137,9 +143,9 @@
                     
                     <div style="display: inline-block; width: 250px; vertical-align: top;">
                         <div class="member">
-                            <a href="2362c23554911b91a2a8b85984c7dce5.html">
-                            <img src="../diagrams/2362c23554911b91a2a8b85984c7dce5.svg">
-                            <div style="text-align: center; margin-top: 1em;">Use Cases</div>
+                            <a href="dc35c89a9f61f3165cf4376523626027.html">
+                            <img src="../diagrams/dc35c89a9f61f3165cf4376523626027.svg">
+                            <div style="text-align: center; margin-top: 1em;">Result List Activity Diagram</div>
                             </a>
                         </div>
                     </div>
@@ -149,6 +155,14 @@
             
 
             <!-- Behavior -->
+
+            
+                
+                
+
+
+                
+                
 
             
 
@@ -165,6 +179,69 @@
             
 
             <!-- Activity -->
+
+            
+                
+                
+<section class="element-list">
+    <h3>Groups</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='28482457a1345aecc1508821b593594a.html'><span class='node-icon _icon-UMLSwimlaneVert'></span>Event Adminstrator</a></li>
+        
+        <li><a href='2aac3d91429f438af119e098a3de638d.html'><span class='node-icon _icon-UMLSwimlaneVert'></span>System</a></li>
+        
+    </ul>
+</section>
+
+
+
+                
+                
+<section class="element-list">
+    <h3>Nodes</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='ddd3726b46922afd9ed54944058559d1.html'><span class='node-icon _icon-UMLInitialNode'></span>InitialNode1</a></li>
+        
+        <li><a href='27125f285e42e7880b1425722a700fc8.html'><span class='node-icon _icon-UMLAction'></span>Initiates Result List</a></li>
+        
+        <li><a href='f3cb7de94e417d8b1e31f69b80a43776.html'><span class='node-icon _icon-UMLAction'></span>Select Course</a></li>
+        
+        <li><a href='b7c2a9bb11f133b506e0b0cd08993c72.html'><span class='node-icon _icon-UMLAction'></span>Retrieve Course Details</a></li>
+        
+        <li><a href='342add1103d93491284fefb2acd5b126.html'><span class='node-icon _icon-UMLDataStoreNode'></span>CourseStorage</a></li>
+        
+        <li><a href='b2828fc7a4149c5e77f350292bc9eb75.html'><span class='node-icon _icon-UMLAction'></span>Order List</a></li>
+        
+        <li><a href='186892d81b152727954cb8305e866faf.html'><span class='node-icon _icon-UMLActivityFinalNode'></span>Course Results Produced</a></li>
+        
+    </ul>
+</section>
+
+
+
+                
+                
+<section class="element-list">
+    <h3>Edges</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='67fc65fc99ba058d2bbf6d6883f60f98.html'><span class='node-icon _icon-UMLControlFlow'></span>(InitialNode1→Initiates Result List)</a></li>
+        
+        <li><a href='ae679f161005835ad9365a488508f783.html'><span class='node-icon _icon-UMLControlFlow'></span>(Initiates Result List→Select Course)</a></li>
+        
+        <li><a href='142c03e40a524bebc8e9f5e44bf9a097.html'><span class='node-icon _icon-UMLControlFlow'></span>(Select Course→Retrieve Course Details)</a></li>
+        
+        <li><a href='f7095e6391f9b543cf81d91b4ec6dd3c.html'><span class='node-icon _icon-UMLObjectFlow'></span>CourseID (Retrieve Course Details→CourseStorage)</a></li>
+        
+        <li><a href='931f49f7b73804d89c3a4065b125ee69.html'><span class='node-icon _icon-UMLObjectFlow'></span>CourseEntrants (CourseStorage→Order List)</a></li>
+        
+        <li><a href='c4712a916a3fe6486072ede75467accf.html'><span class='node-icon _icon-UMLControlFlow'></span>(Order List→Course Results Produced)</a></li>
+        
+    </ul>
+</section>
+
 
             
 
@@ -207,7 +284,7 @@
     
     <tr>
         <td>name</td>
-        <td>Use Case Model</td>
+        <td>Result List Activity</td>
     </tr>
     
     
@@ -241,10 +318,23 @@
     
     
     <tr>
-        <td>importedElements</td>
-        <td>
-            
-        </td>
+        <td>isReentrant</td>
+        <td><span class='label label-info'>true</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>isReadOnly</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -252,9 +342,15 @@
     
     
     <tr>
-        <td>viewpoint</td>
-        <td></td>
+        <td>isSingleExecution</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
+    
+    
+    
+    
+    
+    
     
     
     
@@ -296,47 +392,7 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='2362c23554911b91a2a8b85984c7dce5.html'><span class='node-icon _icon-UMLUseCaseDiagram'></span>Use Cases</a></li>
-        
-        <li><a href='165753520b759d9f8055aaadd0d051ff.html'><span class='node-icon _icon-UMLActor'></span>Field_User</a></li>
-        
-        <li><a href='36aaca06126b6e6c1660c7576804baf9.html'><span class='node-icon _icon-UMLActor'></span>Monitor_User</a></li>
-        
-        <li><a href='5ed43067e415dc0b8180e572c5d30380.html'><span class='node-icon _icon-UMLActor'></span>Event_Admin</a></li>
-        
-        <li><a href='4164b4672621a81ab1f8ba3876e41728.html'><span class='node-icon _icon-UMLActor'></span>Course_Admin</a></li>
-        
-        <li><a href='75b34e35d342490806919a20c2a6d67d.html'><span class='node-icon _icon-UMLUseCase'></span>Log In_Out</a></li>
-        
-        <li><a href='83c9bd8d818eb1babb1b43bccfedf9de.html'><span class='node-icon _icon-UMLUseCase'></span>Set Marker Location</a></li>
-        
-        <li><a href='1025d978c748511d2e127f4c46a1d0a3.html'><span class='node-icon _icon-UMLUseCase'></span>Define Course</a></li>
-        
-        <li><a href='5c69741208c03e7a8e9f1cba50dced2e.html'><span class='node-icon _icon-UMLUseCase'></span>Register Entrant</a></li>
-        
-        <li><a href='f203021845b3d753997878c03ec61858.html'><span class='node-icon _icon-UMLUseCase'></span>Record Manual Entrants Time</a></li>
-        
-        <li><a href='a27f23cd2a2b3876e50a81ffea1387ef.html'><span class='node-icon _icon-UMLUseCase'></span>Result List</a></li>
-        
-        <li><a href='65680e91f817cc032f054275a6c3dee4.html'><span class='node-icon _icon-UMLUseCase'></span>Start Course</a></li>
-        
-        <li><a href='65cdbb31868635bc6c61d43811696f78.html'><span class='node-icon _icon-UMLUseCase'></span>Get Course</a></li>
-        
-        <li><a href='14bcc6a73fbce56d9855a73cb436f4a8.html'><span class='node-icon _icon-UMLUseCase'></span>Finish Course</a></li>
-        
-        <li><a href='b3e685f955f978722bd7238c32dc4b73.html'><span class='node-icon _icon-UMLUseCase'></span>Identify Target</a></li>
-        
-        <li><a href='af4ae4242cb488a9c753e1694d138084.html'><span class='node-icon _icon-UMLUseCase'></span>Reach Target</a></li>
-        
-        <li><a href='8c610a15d4d75a11c94a8fd766e9ecfc.html'><span class='node-icon _icon-UMLUseCase'></span>Request Help</a></li>
-        
-        <li><a href='8f482daf203c850bd1675321f82d14f0.html'><span class='node-icon _icon-UMLUseCase'></span>Direction Help</a></li>
-        
-        <li><a href='dd11b9a7097c11cfe15de5657d15559b.html'><span class='node-icon _icon-UMLUseCase'></span>Monitor Help</a></li>
-        
-        <li><a href='563fcbce9e5fea880151d16706807b3b.html'><span class='node-icon _icon-UMLUseCase'></span>Select Field User</a></li>
-        
-        <li><a href='72411367030775723d02c1e2f6400db4.html'><span class='node-icon _icon-UMLUseCase'></span>Send Field User Message</a></li>
+        <li><a href='dc35c89a9f61f3165cf4376523626027.html'><span class='node-icon _icon-UMLActivityDiagram'></span>Result List Activity Diagram</a></li>
         
     </ul>
 </section>
