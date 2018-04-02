@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Get Course Activity Diagram</title>
+        <title>CourseStorage</title>
         <!-- <script src="http://use.edgefonts.net/source-sans-pro;source-code-pro.js"></script> -->
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -20,14 +20,14 @@
 
             <!-- Name Title -->
 
-            <h1>Get Course Activity Diagram</h1>
+            <h1>CourseStorage</h1>
 
             <!-- Type and Stereotype -->
 
             <section style="margin-top: .5em;">
                 <span class="alert alert-info">
-                    <span class="node-icon _icon-UMLActivityDiagram"></span>
-                    UMLActivityDiagram
+                    <span class="node-icon _icon-UMLDataStoreNode"></span>
+                    UMLDataStoreNode
                 </span>
                 
             </section>
@@ -51,17 +51,12 @@
                     <span class="label label-info"><a href='79412d545826f0c3e5e7d8ad8895f497.html'><span class='node-icon _icon-UMLActivity'></span>Get Course Activity</a></span>
                 
                     <span>::</span>
-                    <span class="label label-info"><a href='02a8f95809040af0119ff956662ceac3.html'><span class='node-icon _icon-UMLActivityDiagram'></span>Get Course Activity Diagram</a></span>
+                    <span class="label label-info"><a href='fcd8dc6f58e5f1c7df9e8d0905ce1deb.html'><span class='node-icon _icon-UMLDataStoreNode'></span>CourseStorage</a></span>
                 
             </section>
 
             <!-- Diagram -->
 
-            
-            <section>
-                <h3>Diagram</h3>
-                <img src="../diagrams/02a8f95809040af0119ff956662ceac3.svg">
-            </section>
             
 
             <!-- Description -->
@@ -71,7 +66,7 @@
                 <h3>Description</h3>
                 <div>
                     
-                        <p>The diagram for getting a course</p>
+                        <p>Store of Courses for the event.</p>
                     
                 </div>
             </section>
@@ -205,10 +200,8 @@
     
     <tr>
         <td>name</td>
-        <td>Get Course Activity Diagram</td>
+        <td>CourseStorage</td>
     </tr>
-    
-    
     
     
     
@@ -221,11 +214,47 @@
     
     
     <tr>
-        <td>defaultDiagram</td>
+        <td>stereotype</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>visibility</td>
+        <td>public</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>type</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isControlType</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
     
+    
+    
+    
+    <tr>
+        <td>ordering</td>
+        <td>FIFO</td>
+    </tr>
     
     
     
@@ -240,11 +269,34 @@
             <!-- Constraints, Dependencies, Dependants -->
 
             
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+            
 
             <!-- Relationships -->
 
             
             
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='83bb14b48e6addb83d0112313cf3ebbc.html'><span class='node-icon _icon-UMLObjectFlow'></span>UserCategory (Query Storage for Courses→CourseStorage)</a></li>
+        
+        <li><a href='eb96d85bf9f3fc7d9d9dd90ef4435906.html'><span class='node-icon _icon-UMLObjectFlow'></span>CourseList (CourseStorage→Remove Completed Courses)</a></li>
+        
+    </ul>
+</section>
+
 
 
             <!-- Owned Elements -->
