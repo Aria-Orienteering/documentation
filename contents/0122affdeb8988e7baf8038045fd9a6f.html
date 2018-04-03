@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Reach Target</title>
+        <title>Activate Target Boundary</title>
         <!-- <script src="http://use.edgefonts.net/source-sans-pro;source-code-pro.js"></script> -->
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -20,14 +20,14 @@
 
             <!-- Name Title -->
 
-            <h1>Reach Target</h1>
+            <h1>Activate Target Boundary</h1>
 
             <!-- Type and Stereotype -->
 
             <section style="margin-top: .5em;">
                 <span class="alert alert-info">
-                    <span class="node-icon _icon-UMLUseCase"></span>
-                    UMLUseCase
+                    <span class="node-icon _icon-UMLAction"></span>
+                    UMLAction
                 </span>
                 
             </section>
@@ -45,7 +45,13 @@
                     <span class="label label-info"><a href='9969dad9dece5c91173a6750c183ca06.html'><span class='node-icon _icon-UMLModel'></span>Use Case Model</a></span>
                 
                     <span>::</span>
-                    <span class="label label-info"><a href='af4ae4242cb488a9c753e1694d138084.html'><span class='node-icon _icon-UMLUseCase'></span>Reach Target</a></span>
+                    <span class="label label-info"><a href='b3e685f955f978722bd7238c32dc4b73.html'><span class='node-icon _icon-UMLUseCase'></span>Identify Target</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='21c7bf5e7c367c8a56a0095db964e758.html'><span class='node-icon _icon-UMLActivity'></span>Identify Target</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='0122affdeb8988e7baf8038045fd9a6f.html'><span class='node-icon _icon-UMLAction'></span>Activate Target Boundary</a></span>
                 
             </section>
 
@@ -60,7 +66,7 @@
                 <h3>Description</h3>
                 <div>
                     
-                        <span class="label label-info">none</span>
+                        <p>Activate the Geofence boundary around marker in hand-held device system.</p>
                     
                 </div>
             </section>
@@ -81,26 +87,6 @@
             <!-- Classifier -->
 
             
-                
-                
-
-
-                
-                
-
-
-                
-                
-
-
-                
-                
-
-
-                
-                
-
-            
 
             <!-- Interface -->
 
@@ -119,27 +105,6 @@
             
 
             <!-- Use Case -->
-
-            
-                
-                
-
-
-                
-                
-
-
-                
-                
-<section class="element-list">
-    <h3>Extending Use Cases</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='b3e685f955f978722bd7238c32dc4b73.html'><span class='node-icon _icon-UMLUseCase'></span>Identify Target</a></li>
-        
-    </ul>
-</section>
-
 
             
 
@@ -181,6 +146,26 @@
             
 
             <!-- Action -->
+
+            
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+
+                
+                
 
             
 
@@ -235,7 +220,7 @@
     
     <tr>
         <td>name</td>
-        <td>Reach Target</td>
+        <td>Activate Target Boundary</td>
     </tr>
     
     
@@ -268,6 +253,13 @@
     
     
     
+    <tr>
+        <td>kind</td>
+        <td>opaque</td>
+    </tr>
+    
+    
+    
     
     
     
@@ -277,7 +269,25 @@
     
     
     <tr>
-        <td>isAbstract</td>
+        <td>target</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>subactivity</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLocallyReentrant</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -286,8 +296,8 @@
     
     
     <tr>
-        <td>isFinalSpecialization</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>isSynchronous</td>
+        <td><span class='label label-info'>true</span></td>
     </tr>
     
     
@@ -295,8 +305,8 @@
     
     
     <tr>
-        <td>isLeaf</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>language</td>
+        <td></td>
     </tr>
     
     
@@ -304,11 +314,13 @@
     
     
     <tr>
-        <td>extensionPoints</td>
-        <td>
-            
-        </td>
+        <td>body</td>
+        <td></td>
     </tr>
+    
+    
+    
+    
     
     
     
@@ -344,7 +356,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='c3ab74c18da7c906bbdd19d521b10487.html'><span class='node-icon _icon-UMLExtend'></span>(Identify Target→Reach Target)</a></li>
+        <li><a href='e67d7a48a7d9726acc049b4046168e84.html'><span class='node-icon _icon-UMLControlFlow'></span>(Highlight Target→Activate Target Boundary)</a></li>
+        
+        <li><a href='6dd34d5b1a3615734cf6c26dc1ede6a7.html'><span class='node-icon _icon-UMLControlFlow'></span>(Activate Target Boundary→ActivityFinalNode1)</a></li>
         
     </ul>
 </section>
@@ -355,15 +369,6 @@
 
             
             
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='10bc9efd90ca43d5cde9bd4dae02001b.html'><span class='node-icon _icon-UMLActivity'></span>ReachTarget  Activity</a></li>
-        
-    </ul>
-</section>
-
 
 
         </div>
