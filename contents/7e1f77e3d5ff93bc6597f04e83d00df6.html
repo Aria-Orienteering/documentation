@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Monitor Help</title>
+        <title>Request</title>
         <!-- <script src="http://use.edgefonts.net/source-sans-pro;source-code-pro.js"></script> -->
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -20,14 +20,14 @@
 
             <!-- Name Title -->
 
-            <h1>Monitor Help</h1>
+            <h1>Request</h1>
 
             <!-- Type and Stereotype -->
 
             <section style="margin-top: .5em;">
                 <span class="alert alert-info">
-                    <span class="node-icon _icon-UMLUseCase"></span>
-                    UMLUseCase
+                    <span class="node-icon _icon-UMLAction"></span>
+                    UMLAction
                 </span>
                 
             </section>
@@ -47,6 +47,12 @@
                     <span>::</span>
                     <span class="label label-info"><a href='dd11b9a7097c11cfe15de5657d15559b.html'><span class='node-icon _icon-UMLUseCase'></span>Monitor Help</a></span>
                 
+                    <span>::</span>
+                    <span class="label label-info"><a href='0ba850c293dc8ac4a254962a2dd48e1a.html'><span class='node-icon _icon-UMLActivity'></span>Monitor Help Activity</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='7e1f77e3d5ff93bc6597f04e83d00df6.html'><span class='node-icon _icon-UMLAction'></span>Request</a></span>
+                
             </section>
 
             <!-- Diagram -->
@@ -60,7 +66,7 @@
                 <h3>Description</h3>
                 <div>
                     
-                        <span class="label label-info">none</span>
+                        <p>Request help from the control centre monitor users.</p>
                     
                 </div>
             </section>
@@ -81,26 +87,6 @@
             <!-- Classifier -->
 
             
-                
-                
-
-
-                
-                
-
-
-                
-                
-
-
-                
-                
-
-
-                
-                
-
-            
 
             <!-- Interface -->
 
@@ -119,27 +105,6 @@
             
 
             <!-- Use Case -->
-
-            
-                
-                
-
-
-                
-                
-
-
-                
-                
-<section class="element-list">
-    <h3>Extending Use Cases</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='8c610a15d4d75a11c94a8fd766e9ecfc.html'><span class='node-icon _icon-UMLUseCase'></span>Request Help</a></li>
-        
-    </ul>
-</section>
-
 
             
 
@@ -181,6 +146,26 @@
             
 
             <!-- Action -->
+
+            
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+
+                
+                
 
             
 
@@ -235,7 +220,7 @@
     
     <tr>
         <td>name</td>
-        <td>Monitor Help</td>
+        <td>Request</td>
     </tr>
     
     
@@ -268,6 +253,13 @@
     
     
     
+    <tr>
+        <td>kind</td>
+        <td>opaque</td>
+    </tr>
+    
+    
+    
     
     
     
@@ -277,7 +269,25 @@
     
     
     <tr>
-        <td>isAbstract</td>
+        <td>target</td>
+        <td><span class='label label-info'>null</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>subactivity</td>
+        <td><a href='0ba850c293dc8ac4a254962a2dd48e1a.html'><span class='node-icon _icon-UMLActivity'></span>Monitor Help Activity</a></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLocallyReentrant</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -286,8 +296,8 @@
     
     
     <tr>
-        <td>isFinalSpecialization</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>isSynchronous</td>
+        <td><span class='label label-info'>true</span></td>
     </tr>
     
     
@@ -295,8 +305,8 @@
     
     
     <tr>
-        <td>isLeaf</td>
-        <td><span class='label label-info'>false</span></td>
+        <td>language</td>
+        <td></td>
     </tr>
     
     
@@ -304,11 +314,13 @@
     
     
     <tr>
-        <td>extensionPoints</td>
-        <td>
-            
-        </td>
+        <td>body</td>
+        <td></td>
     </tr>
+    
+    
+    
+    
     
     
     
@@ -329,15 +341,6 @@
 
                 
                 
-<section class="element-list">
-    <h3>Dependencies</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='36aaca06126b6e6c1660c7576804baf9.html'><span class='node-icon _icon-UMLActor'></span>Monitor_User</a></li>
-        
-    </ul>
-</section>
-
 
 
                 
@@ -353,9 +356,7 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='1cdfb775d8c08915c359f30355925254.html'><span class='node-icon _icon-UMLExtend'></span>(Request Help→Monitor Help)</a></li>
-        
-        <li><a href='73104add1fe2c3d580affa49dc7ea540.html'><span class='node-icon _icon-UMLDependency'></span>receive (Monitor Help→Monitor_User)</a></li>
+        <li><a href='15987ab3abc7f5c1ed66be2f12aa005d.html'><span class='node-icon _icon-UMLControlFlow'></span>(HelpType→Request)</a></li>
         
     </ul>
 </section>
@@ -366,17 +367,6 @@
 
             
             
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='73104add1fe2c3d580affa49dc7ea540.html'><span class='node-icon _icon-UMLDependency'></span>receive (Monitor Help→Monitor_User)</a></li>
-        
-        <li><a href='0ba850c293dc8ac4a254962a2dd48e1a.html'><span class='node-icon _icon-UMLActivity'></span>Monitor Help Activity</a></li>
-        
-    </ul>
-</section>
-
 
 
         </div>
