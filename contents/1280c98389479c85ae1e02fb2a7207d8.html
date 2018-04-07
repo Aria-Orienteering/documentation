@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Analysis Model</title>
+        <title>Course</title>
         <!-- <script src="http://use.edgefonts.net/source-sans-pro;source-code-pro.js"></script> -->
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -20,14 +20,14 @@
 
             <!-- Name Title -->
 
-            <h1>Analysis Model</h1>
+            <h1>Course</h1>
 
             <!-- Type and Stereotype -->
 
             <section style="margin-top: .5em;">
                 <span class="alert alert-info">
-                    <span class="node-icon _icon-UMLModel"></span>
-                    UMLModel
+                    <span class="node-icon _icon-UMLClass"></span>
+                    UMLClass
                 </span>
                 
             </section>
@@ -44,6 +44,12 @@
                     <span>::</span>
                     <span class="label label-info"><a href='fadc44a4ea1e17dd7410764de3989b89.html'><span class='node-icon _icon-UMLModel'></span>Analysis Model</a></span>
                 
+                    <span>::</span>
+                    <span class="label label-info"><a href='17080ee79c29622860afbb733d7993d2.html'><span class='node-icon _icon-UMLPackage'></span>Map</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='1280c98389479c85ae1e02fb2a7207d8.html'><span class='node-icon _icon-UMLClass'></span>Course</a></span>
+                
             </section>
 
             <!-- Diagram -->
@@ -57,7 +63,7 @@
                 <h3>Description</h3>
                 <div>
                     
-                        <span class="label label-info">none</span>
+                        <p>A Course class object containg at least one marker object.</p>
                     
                 </div>
             </section>
@@ -76,6 +82,26 @@
             
 
             <!-- Classifier -->
+
+            
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+
+                
+                
 
             
 
@@ -130,22 +156,6 @@
             <!-- Diagrams -->
 
             
-            
-            <section class="element-list">
-                <h3>Diagrams</h3>
-                <div>
-                    
-                    <div style="display: inline-block; width: 250px; vertical-align: top;">
-                        <div class="member">
-                            <a href="6454ad610afe5841d0b0a0db4273060f.html">
-                            <img src="../diagrams/6454ad610afe5841d0b0a0db4273060f.svg">
-                            <div style="text-align: center; margin-top: 1em;">Analysis</div>
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
             
 
             <!-- Behavior -->
@@ -207,7 +217,7 @@
     
     <tr>
         <td>name</td>
-        <td>Analysis Model</td>
+        <td>Course</td>
     </tr>
     
     
@@ -240,11 +250,17 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
     <tr>
-        <td>importedElements</td>
-        <td>
-            
-        </td>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -252,8 +268,26 @@
     
     
     <tr>
-        <td>viewpoint</td>
-        <td></td>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isActive</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -286,33 +320,25 @@
 
             
             
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='27359be41cdaea68873adb69f2d022d4.html'><span class='node-icon _icon-UMLAssociation'></span>available (FieldUser—Course)</a></li>
+        
+        <li><a href='9483efdab3698c22d142602f6fcc409c.html'><span class='node-icon _icon-UMLAssociation'></span>setCourse (CourseAdmin—Course)</a></li>
+        
+        <li><a href='a62c54ca44c96fc1e2c3c16615e52c53.html'><span class='node-icon _icon-UMLAssociation'></span>has (Marker—Course)</a></li>
+        
+    </ul>
+</section>
+
 
 
             <!-- Owned Elements -->
 
             
             
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='6454ad610afe5841d0b0a0db4273060f.html'><span class='node-icon _icon-UMLClassDiagram'></span>Analysis</a></li>
-        
-        <li><a href='5d6893265519302e5918971d92326221.html'><span class='node-icon _icon-UMLClass'></span>User</a></li>
-        
-        <li><a href='6b93595602ad9dd6bbae3c51fc4f049f.html'><span class='node-icon _icon-UMLClass'></span>FieldUser</a></li>
-        
-        <li><a href='d787f486dae5554726e386fbf000bd96.html'><span class='node-icon _icon-UMLClass'></span>MonitorUser</a></li>
-        
-        <li><a href='d6ac958a26f764ce9c143dca2b26bc11.html'><span class='node-icon _icon-UMLClass'></span>CourseAdmin</a></li>
-        
-        <li><a href='17080ee79c29622860afbb733d7993d2.html'><span class='node-icon _icon-UMLPackage'></span>Map</a></li>
-        
-        <li><a href='26b94638a9096463a1043c93c8030833.html'><span class='node-icon _icon-UMLClass'></span>EventAdmin</a></li>
-        
-    </ul>
-</section>
-
 
 
         </div>
