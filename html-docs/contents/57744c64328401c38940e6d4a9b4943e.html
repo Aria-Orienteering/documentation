@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Design Model</title>
+        <title>Course</title>
         <!-- <script src="http://use.edgefonts.net/source-sans-pro;source-code-pro.js"></script> -->
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -20,14 +20,14 @@
 
             <!-- Name Title -->
 
-            <h1>Design Model</h1>
+            <h1>Course</h1>
 
             <!-- Type and Stereotype -->
 
             <section style="margin-top: .5em;">
                 <span class="alert alert-info">
-                    <span class="node-icon _icon-UMLModel"></span>
-                    UMLModel
+                    <span class="node-icon _icon-UMLClass"></span>
+                    UMLClass
                 </span>
                 
             </section>
@@ -43,6 +43,15 @@
                 
                     <span>::</span>
                     <span class="label label-info"><a href='af7d9745e215e592d9dcc604230d6468.html'><span class='node-icon _icon-UMLModel'></span>Design Model</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='08e0049137fa6f7e4d868a042eafffa5.html'><span class='node-icon _icon-UMLModel'></span>System</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='4dbbedb0ddd9730bef8e53772e8ee44e.html'><span class='node-icon _icon-UMLPackage'></span>courses</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='57744c64328401c38940e6d4a9b4943e.html'><span class='node-icon _icon-UMLClass'></span>Course</a></span>
                 
             </section>
 
@@ -78,6 +87,26 @@
             <!-- Classifier -->
 
             
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+            
 
             <!-- Interface -->
 
@@ -110,9 +139,61 @@
             <!-- Attributes -->
 
             
+            <section>
+                <h3>Attributes</h3>
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <th>Visibility</th>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>public</td>
+                        <td><a href="c5c2ab9b22bfdcd098c8d0cde2861de1.html">ID</a></td>
+                        <td><span class='label label-info'>none</span></td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>private</td>
+                        <td><a href="6c3b972ce5defa5fc7d6667fa1638b32.html">ageFor</a></td>
+                        <td>int</td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>private</td>
+                        <td><a href="4544ce265f9a2b3adcdc8cb11f10fbbf.html">markerList</a></td>
+                        <td><span class='label label-info'>none</span></td>
+                        <td></td>
+                    </tr>
+                    
+                </table>
+            </section>
+            
 
             <!-- Operations -->
 
+            
+            <section>
+                <h3>Operations</h3>
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <th>Visibility</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>public</td>
+                        <td><a href="0ecf0ca1e16aec71f3c77fb62eb25b11.html">setAgeFor(age: int)</a></td>
+                        <td></td>
+                    </tr>
+                    
+                </table>
+            </section>
             
 
             <!-- Receptions -->
@@ -130,22 +211,6 @@
             <!-- Diagrams -->
 
             
-            
-            <section class="element-list">
-                <h3>Diagrams</h3>
-                <div>
-                    
-                    <div style="display: inline-block; width: 250px; vertical-align: top;">
-                        <div class="member">
-                            <a href="d121d42c98df1140be33ad9cbac3a496.html">
-                            <img src="../diagrams/d121d42c98df1140be33ad9cbac3a496.svg">
-                            <div style="text-align: center; margin-top: 1em;">Classes</div>
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
             
 
             <!-- Behavior -->
@@ -207,7 +272,7 @@
     
     <tr>
         <td>name</td>
-        <td>Design Model</td>
+        <td>Course</td>
     </tr>
     
     
@@ -240,11 +305,17 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
     <tr>
-        <td>importedElements</td>
-        <td>
-            
-        </td>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -252,8 +323,26 @@
     
     
     <tr>
-        <td>viewpoint</td>
-        <td></td>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isActive</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -286,23 +375,23 @@
 
             
             
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='4a467d01ea690c407f4aac0dc2401e80.html'><span class='node-icon _icon-UMLAssociation'></span>(CourseAdmin—Course)</a></li>
+        
+        <li><a href='d84bcc886afc54d2de8d58b370fc1448.html'><span class='node-icon _icon-UMLAssociation'></span>(Marker—Course)</a></li>
+        
+    </ul>
+</section>
+
 
 
             <!-- Owned Elements -->
 
             
             
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='d121d42c98df1140be33ad9cbac3a496.html'><span class='node-icon _icon-UMLClassDiagram'></span>Classes</a></li>
-        
-        <li><a href='08e0049137fa6f7e4d868a042eafffa5.html'><span class='node-icon _icon-UMLModel'></span>System</a></li>
-        
-    </ul>
-</section>
-
 
 
         </div>

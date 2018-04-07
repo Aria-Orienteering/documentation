@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Design Model</title>
+        <title>Location</title>
         <!-- <script src="http://use.edgefonts.net/source-sans-pro;source-code-pro.js"></script> -->
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -20,14 +20,14 @@
 
             <!-- Name Title -->
 
-            <h1>Design Model</h1>
+            <h1>Location</h1>
 
             <!-- Type and Stereotype -->
 
             <section style="margin-top: .5em;">
                 <span class="alert alert-info">
-                    <span class="node-icon _icon-UMLModel"></span>
-                    UMLModel
+                    <span class="node-icon _icon-UMLClass"></span>
+                    UMLClass
                 </span>
                 
             </section>
@@ -43,6 +43,15 @@
                 
                     <span>::</span>
                     <span class="label label-info"><a href='af7d9745e215e592d9dcc604230d6468.html'><span class='node-icon _icon-UMLModel'></span>Design Model</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='08e0049137fa6f7e4d868a042eafffa5.html'><span class='node-icon _icon-UMLModel'></span>System</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='4dbbedb0ddd9730bef8e53772e8ee44e.html'><span class='node-icon _icon-UMLPackage'></span>courses</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='b5a33243d50704a8d5b982fbdf7e2903.html'><span class='node-icon _icon-UMLClass'></span>Location</a></span>
                 
             </section>
 
@@ -78,6 +87,26 @@
             <!-- Classifier -->
 
             
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+
+                
+                
+
+            
 
             <!-- Interface -->
 
@@ -110,9 +139,60 @@
             <!-- Attributes -->
 
             
+            <section>
+                <h3>Attributes</h3>
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <th>Visibility</th>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>private</td>
+                        <td><a href="3348f5cf3995a3559ad7fcf308287c1c.html">longitude</a></td>
+                        <td>double</td>
+                        <td></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>private</td>
+                        <td><a href="5273b6647fa24455e545adc695bf8b92.html">latitude</a></td>
+                        <td>double</td>
+                        <td></td>
+                    </tr>
+                    
+                </table>
+            </section>
+            
 
             <!-- Operations -->
 
+            
+            <section>
+                <h3>Operations</h3>
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <th>Visibility</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>public</td>
+                        <td><a href="49f2af86fa6920717a010e2d0aabea54.html">getLongitude()</a></td>
+                        <td><p>returns the longitude of a Location.</p></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>public</td>
+                        <td><a href="a4ea00b6afb2e73a07aea7f841115611.html">getLatitude()</a></td>
+                        <td><p>returns the latitude reading of a Location</p></td>
+                    </tr>
+                    
+                </table>
+            </section>
             
 
             <!-- Receptions -->
@@ -130,22 +210,6 @@
             <!-- Diagrams -->
 
             
-            
-            <section class="element-list">
-                <h3>Diagrams</h3>
-                <div>
-                    
-                    <div style="display: inline-block; width: 250px; vertical-align: top;">
-                        <div class="member">
-                            <a href="d121d42c98df1140be33ad9cbac3a496.html">
-                            <img src="../diagrams/d121d42c98df1140be33ad9cbac3a496.svg">
-                            <div style="text-align: center; margin-top: 1em;">Classes</div>
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
             
 
             <!-- Behavior -->
@@ -207,7 +271,7 @@
     
     <tr>
         <td>name</td>
-        <td>Design Model</td>
+        <td>Location</td>
     </tr>
     
     
@@ -240,11 +304,17 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
     <tr>
-        <td>importedElements</td>
-        <td>
-            
-        </td>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -252,8 +322,26 @@
     
     
     <tr>
-        <td>viewpoint</td>
-        <td></td>
+        <td>isFinalSpecialization</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isLeaf</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isActive</td>
+        <td><span class='label label-info'>false</span></td>
     </tr>
     
     
@@ -286,23 +374,25 @@
 
             
             
+<section class="element-list">
+    <h3>Relationships</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='d5b41f8053c32fe821a7782c20dfb945.html'><span class='node-icon _icon-UMLAssociation'></span>(FieldUser—Location)</a></li>
+        
+        <li><a href='b71aec7d1a824f1563e61391457f8c7b.html'><span class='node-icon _icon-UMLAssociation'></span>(CourseAdmin—Location)</a></li>
+        
+        <li><a href='0e86552b0f230a193edafd89ca8cba4a.html'><span class='node-icon _icon-UMLAssociation'></span>(Marker—Location)</a></li>
+        
+    </ul>
+</section>
+
 
 
             <!-- Owned Elements -->
 
             
             
-<section class="element-list">
-    <h3>Owned Elements</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='d121d42c98df1140be33ad9cbac3a496.html'><span class='node-icon _icon-UMLClassDiagram'></span>Classes</a></li>
-        
-        <li><a href='08e0049137fa6f7e4d868a042eafffa5.html'><span class='node-icon _icon-UMLModel'></span>System</a></li>
-        
-    </ul>
-</section>
-
 
 
         </div>
