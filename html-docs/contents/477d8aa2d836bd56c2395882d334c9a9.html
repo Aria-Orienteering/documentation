@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>FieldUser</title>
+        <title>User</title>
         <!-- <script src="http://use.edgefonts.net/source-sans-pro;source-code-pro.js"></script> -->
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -20,7 +20,7 @@
 
             <!-- Name Title -->
 
-            <h1>FieldUser</h1>
+            <h1>User</h1>
 
             <!-- Type and Stereotype -->
 
@@ -51,7 +51,7 @@
                     <span class="label label-info"><a href='77c306eb87168bc138c40ea8e2a43cd4.html'><span class='node-icon _icon-UMLPackage'></span>users</a></span>
                 
                     <span>::</span>
-                    <span class="label label-info"><a href='477d8aa2d836bd56c2395882d334c9a9.html'><span class='node-icon _icon-UMLClass'></span>FieldUser</a></span>
+                    <span class="label label-info"><a href='477d8aa2d836bd56c2395882d334c9a9.html'><span class='node-icon _icon-UMLClass'></span>User</a></span>
                 
             </section>
 
@@ -89,19 +89,19 @@
             
                 
                 
+
+
+                
+                
 <section class="element-list">
-    <h3>Generalized Elements</h3>
+    <h3>Specialized Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='40e1b585c4ff855e6e6280c106896b1c.html'><span class='node-icon _icon-UMLClass'></span>User</a></li>
+        <li><a href='79eaf8b9331d280eb04e118c2624375a.html'><span class='node-icon _icon-UMLClass'></span>FieldUser</a></li>
         
     </ul>
 </section>
 
-
-
-                
-                
 
 
                 
@@ -186,6 +186,13 @@
                         <td><p>is the age of the Field User</p></td>
                     </tr>
                     
+                    <tr>
+                        <td>private</td>
+                        <td><a href="b058317cae388c7d41d9386b2a161218.html">targetMarker</a></td>
+                        <td><a href='08719f97ab085cf8f60522f7b882420e.html'>Marker</a></td>
+                        <td></td>
+                    </tr>
+                    
                 </table>
             </section>
             
@@ -210,18 +217,6 @@
                     
                     <tr>
                         <td>public</td>
-                        <td><a href="53a9713feadc503f9a6bdbe84e4ffd89.html">getDirectionHelp()</a></td>
-                        <td><p>starts the direction help on UI</p></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>public</td>
-                        <td><a href="a117c8e2f028a7d4bdc496b3493e3eaa.html">getMonitorHelp()</a></td>
-                        <td><p>Static method by field user to request help from the monitor User</p></td>
-                    </tr>
-                    
-                    <tr>
-                        <td>public</td>
                         <td><a href="9967ad088bb9b34a71f1c1a6bca14b7f.html">getFirstName()</a></td>
                         <td><p>Gets the First Name of the Field USer</p></td>
                     </tr>
@@ -230,6 +225,12 @@
                         <td>public</td>
                         <td><a href="1bdb984b6647d9477f18e1da53eee308.html">getAge()</a></td>
                         <td><p>Gets the Age of a Field User</p></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>public</td>
+                        <td><a href="99d04e4935dfa19882361981751431e2.html">getCurrentTarget()</a></td>
+                        <td></td>
                     </tr>
                     
                 </table>
@@ -312,7 +313,7 @@
     
     <tr>
         <td>name</td>
-        <td>FieldUser</td>
+        <td>User</td>
     </tr>
     
     
@@ -419,9 +420,9 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='fb2a7ed544d6f2cee79a5c4688505060.html'><span class='node-icon _icon-UMLGeneralization'></span>(FieldUser→User)</a></li>
+        <li><a href='d5b41f8053c32fe821a7782c20dfb945.html'><span class='node-icon _icon-UMLAssociation'></span>(User—Location)</a></li>
         
-        <li><a href='d5b41f8053c32fe821a7782c20dfb945.html'><span class='node-icon _icon-UMLAssociation'></span>(FieldUser—Location)</a></li>
+        <li><a href='382a27eb788b3db10fd6d4f1a3c524ed.html'><span class='node-icon _icon-UMLGeneralization'></span>(FieldUser→User)</a></li>
         
     </ul>
 </section>
@@ -436,9 +437,7 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='fb2a7ed544d6f2cee79a5c4688505060.html'><span class='node-icon _icon-UMLGeneralization'></span>(FieldUser→User)</a></li>
-        
-        <li><a href='d5b41f8053c32fe821a7782c20dfb945.html'><span class='node-icon _icon-UMLAssociation'></span>(FieldUser—Location)</a></li>
+        <li><a href='d5b41f8053c32fe821a7782c20dfb945.html'><span class='node-icon _icon-UMLAssociation'></span>(User—Location)</a></li>
         
     </ul>
 </section>
