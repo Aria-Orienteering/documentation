@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Analysis Model</title>
+        <title>Interaction1</title>
         <!-- <script src="http://use.edgefonts.net/source-sans-pro;source-code-pro.js"></script> -->
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -20,14 +20,14 @@
 
             <!-- Name Title -->
 
-            <h1>Analysis Model</h1>
+            <h1>Interaction1</h1>
 
             <!-- Type and Stereotype -->
 
             <section style="margin-top: .5em;">
                 <span class="alert alert-info">
-                    <span class="node-icon _icon-UMLModel"></span>
-                    UMLModel
+                    <span class="node-icon _icon-UMLInteraction"></span>
+                    UMLInteraction
                 </span>
                 
             </section>
@@ -43,6 +43,12 @@
                 
                     <span>::</span>
                     <span class="label label-info"><a href='fadc44a4ea1e17dd7410764de3989b89.html'><span class='node-icon _icon-UMLModel'></span>Analysis Model</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='a137b3910e9471631bd866532a66fb4f.html'><span class='node-icon _icon-UMLCollaboration'></span>Get Users</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='8f21add59e7c8a130d232deba34ebd2a.html'><span class='node-icon _icon-UMLInteraction'></span>Interaction1</a></span>
                 
             </section>
 
@@ -137,18 +143,9 @@
                     
                     <div style="display: inline-block; width: 250px; vertical-align: top;">
                         <div class="member">
-                            <a href="6454ad610afe5841d0b0a0db4273060f.html">
-                            <img src="../diagrams/6454ad610afe5841d0b0a0db4273060f.svg">
-                            <div style="text-align: center; margin-top: 1em;">Analysis</div>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div style="display: inline-block; width: 250px; vertical-align: top;">
-                        <div class="member">
-                            <a href="db08626f0273160fada59894dfae5594.html">
-                            <img src="../diagrams/db08626f0273160fada59894dfae5594.svg">
-                            <div style="text-align: center; margin-top: 1em;">Analysis Component Diagram</div>
+                            <a href="c408dde8c6f6d924861bda3a02e08d70.html">
+                            <img src="../diagrams/c408dde8c6f6d924861bda3a02e08d70.svg">
+                            <div style="text-align: center; margin-top: 1em;">Get Users Diagram</div>
                             </a>
                         </div>
                     </div>
@@ -160,12 +157,60 @@
             <!-- Behavior -->
 
             
+                
+                
+
+
+                
+                
+
+            
 
             <!-- Action -->
 
             
 
             <!-- Interaction -->
+
+            
+                
+                
+
+
+                
+                
+<section class="element-list">
+    <h3>Participants</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='964f147d2c02787ced0cbe98e25a36a6.html'><span class='node-icon _icon-UMLLifeline'></span>UI</a></li>
+        
+        <li><a href='2a834a0a2ae9745b3dfbad70d72ad25c.html'><span class='node-icon _icon-UMLLifeline'></span>UICoordinator</a></li>
+        
+        <li><a href='185d1fc91a56208cd3ced5cafbc20b88.html'><span class='node-icon _icon-UMLLifeline'></span>PersistenceCoordinator</a></li>
+        
+    </ul>
+</section>
+
+
+
+                
+                
+<section class="element-list">
+    <h3>Messages</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='b61cd603e05660e31ad6795216fde429.html'><span class='node-icon _icon-UMLMessage'></span>GetUsers (UI→UICoordinator)</a></li>
+        
+        <li><a href='1703a4222e5e678d63c05f5fdadb4f34.html'><span class='node-icon _icon-UMLMessage'></span>GetUsers (UICoordinator→PersistenceCoordinator)</a></li>
+        
+        <li><a href='b51c5165b25eba095f8e590d70d99e82.html'><span class='node-icon _icon-UMLMessage'></span>users (PersistenceCoordinator→UICoordinator)</a></li>
+        
+        <li><a href='a9ccdf6c575d413441e35c9ae199875d.html'><span class='node-icon _icon-UMLMessage'></span>users (UICoordinator→UI)</a></li>
+        
+    </ul>
+</section>
+
 
             
 
@@ -216,7 +261,7 @@
     
     <tr>
         <td>name</td>
-        <td>Analysis Model</td>
+        <td>Interaction1</td>
     </tr>
     
     
@@ -250,20 +295,21 @@
     
     
     <tr>
-        <td>importedElements</td>
-        <td>
-            
-        </td>
+        <td>isReentrant</td>
+        <td><span class='label label-info'>true</span></td>
     </tr>
     
     
     
     
     
-    <tr>
-        <td>viewpoint</td>
-        <td></td>
-    </tr>
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -305,33 +351,7 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='6454ad610afe5841d0b0a0db4273060f.html'><span class='node-icon _icon-UMLClassDiagram'></span>Analysis</a></li>
-        
-        <li><a href='6b93595602ad9dd6bbae3c51fc4f049f.html'><span class='node-icon _icon-UMLClass'></span>FieldUser</a></li>
-        
-        <li><a href='d787f486dae5554726e386fbf000bd96.html'><span class='node-icon _icon-UMLClass'></span>MonitorUser</a></li>
-        
-        <li><a href='d6ac958a26f764ce9c143dca2b26bc11.html'><span class='node-icon _icon-UMLClass'></span>CourseAdmin</a></li>
-        
-        <li><a href='6a47e21a0ccde24bb5dee26b11a6a65b.html'><span class='node-icon _icon-UMLNode'></span>System Model</a></li>
-        
-        <li><a href='db08626f0273160fada59894dfae5594.html'><span class='node-icon _icon-UMLComponentDiagram'></span>Analysis Component Diagram</a></li>
-        
-        <li><a href='f0756bda780a0cf6b3ba9fcf54e297d0.html'><span class='node-icon _icon-UMLComponent'></span>UICoordinator</a></li>
-        
-        <li><a href='77744c55c28318113b1416cec2db6f31.html'><span class='node-icon _icon-UMLComponent'></span>PersistenceCoordinator</a></li>
-        
-        <li><a href='8fa1e930564dea3da59c1f8997563a26.html'><span class='node-icon _icon-UMLInterface'></span>UserInterface</a></li>
-        
-        <li><a href='2bf4d25f34bcf7b15d30640bae0a0a87.html'><span class='node-icon _icon-UMLInterface'></span>CloudStorage</a></li>
-        
-        <li><a href='02ea70dbc9a1f885d5d3ea01414f3630.html'><span class='node-icon _icon-UMLCollaboration'></span>Get Direction Help</a></li>
-        
-        <li><a href='a137b3910e9471631bd866532a66fb4f.html'><span class='node-icon _icon-UMLCollaboration'></span>Get Users</a></li>
-        
-        <li><a href='c69027c29bbaafe4e0331affa8722771.html'><span class='node-icon _icon-UMLCollaboration'></span>Select User</a></li>
-        
-        <li><a href='aeac09188a6afa96611b9521b60fd9c1.html'><span class='node-icon _icon-UMLCollaboration'></span>Collaboration1</a></li>
+        <li><a href='c408dde8c6f6d924861bda3a02e08d70.html'><span class='node-icon _icon-UMLSequenceDiagram'></span>Get Users Diagram</a></li>
         
     </ul>
 </section>
