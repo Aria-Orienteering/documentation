@@ -11,3 +11,6 @@ But a working web version is available for viewing at https://aria-orienteering.
 
 ## Original UML Design for the applications
 Can be viewd at https://aria-orienteering.github.io/documentation/
+
+## Android Design Mockup
+Can be viewed at https://aria-orienteering.github.io/android-design/
